@@ -1,6 +1,5 @@
 #include "RuleParser.h"
 #include <algorithm>
-#include <cctype>
 
 Rule RuleParser::parse(const std::string& line) {
     if (line.empty()) {
