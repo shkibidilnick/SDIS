@@ -33,23 +33,32 @@ std::string MarkovAlgorithm::getCurrentTape() const {
 bool MarkovAlgorithm::isHalted() const { return halted_; }
 
 void MarkovAlgorithm::loadRulesFromStream(std::istream& stream) {
-  rules_.clear();
+  std::vector<Rule> newRules;
   std::string line;
+  int lineNumber = 0;
+  std::string lastProcessedLine;
 
   try {
     while (std::getline(stream, line)) {
+      lineNumber++;
       if (line.empty()) continue;
 
+      lastProcessedLine = line;
       Rule rule = RuleParser::parse(line);
-      rules_.push_back(rule);
+      newRules.push_back(rule);
     }
-
+    rules_ = std::move(newRules);
     halted_ = false;
     iterationCount_ = 0;
-  } catch (const std::exception&) {
+
+  } catch (const std::exception& e) {
+    std::stringstream errorMsg;
+    errorMsg << "Rule parsing error at line " << lineNumber << ": " << e.what()
+             << "\nLine content: '" << lastProcessedLine << "'";
+
     rules_.clear();
     halted_ = true;
-    throw;
+    throw std::runtime_error(errorMsg.str());
   }
 }
 
