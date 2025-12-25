@@ -4,12 +4,12 @@
 #include <sc-memory/sc_memory.hpp>
 #include <sc-memory/test/sc_test.hpp>
 
-#include "agents/find_optimal_agent.hpp"
-#include "agents/calculate_distances_agent.hpp"
-#include "agents/find_center_agent.hpp"
-#include "agents/find_problem_zones_agent.hpp"
+#include "agents/station_location_optimizer.hpp"
+#include "agents/village_distance_calculator.hpp"
+#include "agents/graph_center_locator.hpp"
+#include "agents/accessibility_analyzer.hpp"
 
-#include "keynodes/ambulance_keynodes.hpp"
+#include "keynodes/emergency_service_concepts.hpp"
 
 using namespace ambulance_module;
 
