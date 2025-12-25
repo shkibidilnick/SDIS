@@ -1,4 +1,4 @@
-#include "find_problem_zones_agent.hpp"
+#include "accessibility_analyzer.hpp"
 #include <cmath>
 #include <vector>
 #include <string>
@@ -6,6 +6,11 @@
 #include <tuple> 
 
 using namespace ambulance_module;
+
+ScAddr FindProblemZonesAgent::GetActionClass() const
+{
+  return AmbulanceKeynodes::action_find_problem_zones;
+}
 
 ScResult FindProblemZonesAgent::DoProgram(ScAction & action)
 {
