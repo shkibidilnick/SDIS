@@ -1,4 +1,4 @@
-#include "find_center_agent.hpp"
+#include "graph_center_locator.hpp"
 #include <cmath>
 #include <limits>
 #include <vector>
@@ -123,6 +123,12 @@ ScResult FindCenterAgent::DoProgram(ScAction & action)
     resultStruct << centerNode 
                  << resArc 
                  << AmbulanceKeynodes::nrel_graph_center;
+    
+    action.SetResult(resultStruct);
+
+    m_logger.Info("Graph Center found. Radius: " + std::to_string(minMaxDist));
+    return action.FinishSuccessfully();
+}
     
     action.SetResult(resultStruct);
 
