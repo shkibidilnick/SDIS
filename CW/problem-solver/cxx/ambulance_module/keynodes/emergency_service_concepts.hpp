@@ -12,7 +12,7 @@ public:
       "action_find_graph_center", ScType::ConstNodeClass};
   static inline ScKeynode const action_find_optimal_station {
       "action_find_optimal_station", ScType::ConstNodeClass};
-  
+
 
   static inline ScKeynode const action_find_problem_zones {
       "action_find_problem_zones", ScType::ConstNodeClass};
@@ -37,7 +37,7 @@ public:
       "nrel_graph_center", ScType::ConstNodeNonRole};
   static inline ScKeynode const nrel_optimal_location {
       "nrel_optimal_location", ScType::ConstNodeNonRole};
-      
+
 
   static inline ScKeynode const nrel_problem_zone {
       "nrel_problem_zone", ScType::ConstNodeNonRole};
