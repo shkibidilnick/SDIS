@@ -1,9 +1,14 @@
-#include "calculate_distances_agent.hpp"
+#include "village_distance_calculator.hpp"
 #include <cmath>
 #include <string>
 #include <vector>
 
 using namespace ambulance_module;
+
+ScAddr CalculateDistancesAgent::GetActionClass() const
+{
+  return AmbulanceKeynodes::action_calculate_distances;
+}
 
 ScResult CalculateDistancesAgent::DoProgram(ScAction & action)
 {
