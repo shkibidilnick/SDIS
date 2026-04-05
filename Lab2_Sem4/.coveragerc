@@ -1,0 +1,7 @@
+[run]
+omit =
+    app/views/*
+    app/controllers/*
+    app/main.py
+    app/repositories/interfaces.py
+    */__init__.py
