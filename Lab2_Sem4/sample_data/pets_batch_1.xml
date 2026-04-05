@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <pets>
   <pet>
     <name>Барсик-1-1</name>
@@ -14,7 +14,7 @@
   <pet>
     <name>Мурка-1-2</name>
     <birth_date>2018-02-02</birth_date>
-    <last_visit_date>2026-04-06</last_visit_date>
+    <last_visit_date>2025-04-06</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -36,7 +36,7 @@
   <pet>
     <name>Лайма-1-4</name>
     <birth_date>2020-04-04</birth_date>
-    <last_visit_date>2026-10-16</last_visit_date>
+    <last_visit_date>2025-10-16</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -58,7 +58,7 @@
   <pet>
     <name>Снежок-1-6</name>
     <birth_date>2022-06-06</birth_date>
-    <last_visit_date>2026-04-26</last_visit_date>
+    <last_visit_date>2025-04-26</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -80,7 +80,7 @@
   <pet>
     <name>Чапа-1-8</name>
     <birth_date>2017-08-08</birth_date>
-    <last_visit_date>2026-10-09</last_visit_date>
+    <last_visit_date>2025-10-09</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -102,7 +102,7 @@
   <pet>
     <name>Луна-1-10</name>
     <birth_date>2019-10-10</birth_date>
-    <last_visit_date>2026-04-19</last_visit_date>
+    <last_visit_date>2025-04-19</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -124,7 +124,7 @@
   <pet>
     <name>Мурка-1-12</name>
     <birth_date>2021-12-12</birth_date>
-    <last_visit_date>2026-10-02</last_visit_date>
+    <last_visit_date>2025-10-02</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -146,7 +146,7 @@
   <pet>
     <name>Лайма-1-14</name>
     <birth_date>2023-02-14</birth_date>
-    <last_visit_date>2026-04-12</last_visit_date>
+    <last_visit_date>2025-04-12</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -168,7 +168,7 @@
   <pet>
     <name>Снежок-1-16</name>
     <birth_date>2018-04-16</birth_date>
-    <last_visit_date>2026-10-22</last_visit_date>
+    <last_visit_date>2025-10-22</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -212,7 +212,7 @@
   <pet>
     <name>Луна-1-20</name>
     <birth_date>2022-08-20</birth_date>
-    <last_visit_date>2026-10-15</last_visit_date>
+    <last_visit_date>2025-10-15</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -234,7 +234,7 @@
   <pet>
     <name>Мурка-1-22</name>
     <birth_date>2017-10-22</birth_date>
-    <last_visit_date>2026-04-25</last_visit_date>
+    <last_visit_date>2025-04-25</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -256,7 +256,7 @@
   <pet>
     <name>Лайма-1-24</name>
     <birth_date>2019-12-24</birth_date>
-    <last_visit_date>2026-10-08</last_visit_date>
+    <last_visit_date>2025-10-08</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -278,7 +278,7 @@
   <pet>
     <name>Снежок-1-26</name>
     <birth_date>2021-02-26</birth_date>
-    <last_visit_date>2026-04-18</last_visit_date>
+    <last_visit_date>2025-04-18</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -300,7 +300,7 @@
   <pet>
     <name>Чапа-1-28</name>
     <birth_date>2023-04-01</birth_date>
-    <last_visit_date>2026-10-01</last_visit_date>
+    <last_visit_date>2025-10-01</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -322,7 +322,7 @@
   <pet>
     <name>Луна-1-30</name>
     <birth_date>2018-06-03</birth_date>
-    <last_visit_date>2026-04-11</last_visit_date>
+    <last_visit_date>2025-04-11</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -344,7 +344,7 @@
   <pet>
     <name>Мурка-1-32</name>
     <birth_date>2020-08-05</birth_date>
-    <last_visit_date>2026-10-21</last_visit_date>
+    <last_visit_date>2025-10-21</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -388,7 +388,7 @@
   <pet>
     <name>Снежок-1-36</name>
     <birth_date>2017-12-09</birth_date>
-    <last_visit_date>2026-10-14</last_visit_date>
+    <last_visit_date>2025-10-14</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -410,7 +410,7 @@
   <pet>
     <name>Чапа-1-38</name>
     <birth_date>2019-02-11</birth_date>
-    <last_visit_date>2026-04-24</last_visit_date>
+    <last_visit_date>2025-04-24</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -432,7 +432,7 @@
   <pet>
     <name>Луна-1-40</name>
     <birth_date>2021-04-13</birth_date>
-    <last_visit_date>2026-10-07</last_visit_date>
+    <last_visit_date>2025-10-07</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -454,7 +454,7 @@
   <pet>
     <name>Мурка-1-42</name>
     <birth_date>2023-06-15</birth_date>
-    <last_visit_date>2026-04-17</last_visit_date>
+    <last_visit_date>2025-04-17</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -476,7 +476,7 @@
   <pet>
     <name>Лайма-1-44</name>
     <birth_date>2018-08-17</birth_date>
-    <last_visit_date>2026-10-27</last_visit_date>
+    <last_visit_date>2025-10-27</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -498,7 +498,7 @@
   <pet>
     <name>Снежок-1-46</name>
     <birth_date>2020-10-19</birth_date>
-    <last_visit_date>2026-04-10</last_visit_date>
+    <last_visit_date>2025-04-10</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
@@ -520,7 +520,7 @@
   <pet>
     <name>Чапа-1-48</name>
     <birth_date>2022-12-21</birth_date>
-    <last_visit_date>2026-10-20</last_visit_date>
+    <last_visit_date>2025-10-20</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -564,7 +564,7 @@
   <pet>
     <name>Мурка-1-52</name>
     <birth_date>2019-04-25</birth_date>
-    <last_visit_date>2026-10-13</last_visit_date>
+    <last_visit_date>2025-10-13</last_visit_date>
     <veterinarian>
       <last_name>Кузнецова</last_name>
       <first_name>Мария</first_name>
@@ -586,7 +586,7 @@
   <pet>
     <name>Лайма-1-54</name>
     <birth_date>2021-06-27</birth_date>
-    <last_visit_date>2026-04-23</last_visit_date>
+    <last_visit_date>2025-04-23</last_visit_date>
     <veterinarian>
       <last_name>Соколова</last_name>
       <first_name>Анна</first_name>
