@@ -66,12 +66,15 @@ class SQLitePetRecordRepository(PetRecordRepository):
                 ),
             )
             connection.commit()
-            return record.with_id(int(cursor.lastrowid))
+            return record.with_id(cursor.lastrowid)
 
     def get_all(self) -> list[PetRecord]:
         with self._connect() as connection:
             rows = connection.execute(
-                "SELECT * FROM pet_records ORDER BY last_visit_date DESC, pet_name ASC, id ASC"
+                """
+                SELECT * FROM pet_records
+                ORDER BY id ASC
+                """
             ).fetchall()
             return [self._row_to_record(row) for row in rows]
 
@@ -97,6 +100,11 @@ class SQLitePetRecordRepository(PetRecordRepository):
                         record.diagnosis.strip(),
                     ),
                 )
+            connection.commit()
+
+    def clear_all(self) -> None:
+        with self._connect() as connection:
+            connection.execute("DELETE FROM pet_records")
             connection.commit()
 
     def search_by_pet_name_and_birth_date(self, criteria: ByPetNameAndBirthDateCriteria) -> list[PetRecord]:

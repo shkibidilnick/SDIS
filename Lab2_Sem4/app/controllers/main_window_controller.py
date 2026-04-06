@@ -36,6 +36,7 @@ class MainWindowController:
         self._view.search_action.triggered.connect(self.open_search_dialog)
         self._view.delete_action.triggered.connect(self.open_delete_dialog)
         self._view.refresh_action.triggered.connect(self.refresh_records)
+        self._view.clear_all_action.triggered.connect(self.clear_all_records)
         self._view.export_xml_action.triggered.connect(self.export_xml)
         self._view.import_xml_action.triggered.connect(self.import_xml)
         self._view.exit_action.triggered.connect(self._view.close)
@@ -73,6 +74,14 @@ class MainWindowController:
         self._page_size = page_size
         self.refresh_records(page_number)
 
+    def clear_all_records(self) -> None:
+        if not self._view.ask_clear_all_confirmation():
+            return
+
+        self._record_service.clear_all()
+        self.refresh_records()
+        self._view.show_info("Очистка завершена", "Все записи были удалены.")
+
     def export_xml(self) -> None:
         path = self._view.ask_save_xml_path()
         if not path:
@@ -96,6 +105,6 @@ class MainWindowController:
         self._view.show_info(
             "О программе",
             "Lab2_Sem4\n"
-            "Учёт питомцев и ветеринарных приёмов\n"
+            "Учёт питомцев и ветеринарных приемов\n"
             "MVC + SQLite + XML DOM/SAX",
         )

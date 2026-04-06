@@ -24,6 +24,10 @@ class PetRecordRepository(ABC):
         raise NotImplementedError
 
     @abstractmethod
+    def clear_all(self) -> None:
+        raise NotImplementedError
+
+    @abstractmethod
     def search_by_pet_name_and_birth_date(self, criteria: ByPetNameAndBirthDateCriteria) -> list[PetRecord]:
         raise NotImplementedError
 

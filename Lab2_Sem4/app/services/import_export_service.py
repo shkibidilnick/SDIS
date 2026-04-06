@@ -25,5 +25,31 @@ class ImportExportService:
 
     def import_from_xml(self, file_path: str | Path) -> list[PetRecord]:
         records = self._reader.read(file_path)
-        self._record_service.replace_all(records)
-        return records
+        existing_keys = {
+            self._build_record_key(record) for record in self._record_service.get_all_records()
+        }
+
+        imported_records: list[PetRecord] = []
+
+        for record in records:
+            record_key = self._build_record_key(record)
+            if record_key in existing_keys:
+                continue
+
+            saved_record = self._record_service.add_record(record)
+            imported_records.append(saved_record)
+            existing_keys.add(record_key)
+
+        return imported_records
+
+    @staticmethod
+    def _build_record_key(record: PetRecord) -> tuple[str, str, str, str, str, str, str]:
+        return (
+            record.pet_name.strip().casefold(),
+            record.birth_date.isoformat(),
+            record.last_visit_date.isoformat(),
+            record.veterinarian.last_name.strip().casefold(),
+            record.veterinarian.first_name.strip().casefold(),
+            record.veterinarian.middle_name.strip().casefold(),
+            record.diagnosis.strip().casefold(),
+        )

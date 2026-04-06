@@ -1,608 +1,608 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" ?>
 <pets>
   <pet>
-    <name>Барсик-2-1</name>
-    <birth_date>2017-01-01</birth_date>
-    <last_visit_date>2025-01-01</last_visit_date>
+    <name>Ася-2-1</name>
+    <birth_date>2017-04-06</birth_date>
+    <last_visit_date>2025-03-08</last_visit_date>
     <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
     </veterinarian>
-    <diagnosis>Плановый осмотр, здоров</diagnosis>
+    <diagnosis>Ревакцинация, состояние стабильное</diagnosis>
   </pet>
   <pet>
-    <name>Мурка-2-2</name>
-    <birth_date>2018-02-02</birth_date>
-    <last_visit_date>2025-04-06</last_visit_date>
+    <name>Буран-2-2</name>
+    <birth_date>2018-07-11</birth_date>
+    <last_visit_date>2024-05-15</last_visit_date>
     <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
     </veterinarian>
-    <diagnosis>Вакцинация, состояние хорошее</diagnosis>
+    <diagnosis>Легкое растяжение лапы, назначен покой</diagnosis>
   </pet>
   <pet>
-    <name>Рекс-2-3</name>
-    <birth_date>2019-03-03</birth_date>
-    <last_visit_date>2025-07-11</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Аллергическая реакция, назначено лечение</diagnosis>
-  </pet>
-  <pet>
-    <name>Лайма-2-4</name>
-    <birth_date>2020-04-04</birth_date>
-    <last_visit_date>2025-10-16</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Проблемы с пищеварением, назначена диета</diagnosis>
-  </pet>
-  <pet>
-    <name>Боня-2-5</name>
-    <birth_date>2021-05-05</birth_date>
-    <last_visit_date>2025-01-21</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Отит, проведена обработка</diagnosis>
-  </pet>
-  <pet>
-    <name>Снежок-2-6</name>
-    <birth_date>2022-06-06</birth_date>
-    <last_visit_date>2025-04-26</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Контроль после операции, положительная динамика</diagnosis>
-  </pet>
-  <pet>
-    <name>Граф-2-7</name>
-    <birth_date>2023-07-07</birth_date>
-    <last_visit_date>2025-07-04</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Дерматит, назначена мазь</diagnosis>
-  </pet>
-  <pet>
-    <name>Чапа-2-8</name>
-    <birth_date>2017-08-08</birth_date>
-    <last_visit_date>2025-10-09</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Зубной налет, рекомендована чистка</diagnosis>
-  </pet>
-  <pet>
-    <name>Том-2-9</name>
-    <birth_date>2018-09-09</birth_date>
-    <last_visit_date>2025-01-14</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Повторный прием, улучшение состояния</diagnosis>
-  </pet>
-  <pet>
-    <name>Луна-2-10</name>
-    <birth_date>2019-10-10</birth_date>
-    <last_visit_date>2025-04-19</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Травма лапы, наложена повязка</diagnosis>
-  </pet>
-  <pet>
-    <name>Барсик-2-11</name>
-    <birth_date>2020-11-11</birth_date>
-    <last_visit_date>2025-07-24</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Плановый осмотр, здоров</diagnosis>
-  </pet>
-  <pet>
-    <name>Мурка-2-12</name>
-    <birth_date>2021-12-12</birth_date>
-    <last_visit_date>2025-10-02</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Вакцинация, состояние хорошее</diagnosis>
-  </pet>
-  <pet>
-    <name>Рекс-2-13</name>
-    <birth_date>2022-01-13</birth_date>
-    <last_visit_date>2025-01-07</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Аллергическая реакция, назначено лечение</diagnosis>
-  </pet>
-  <pet>
-    <name>Лайма-2-14</name>
-    <birth_date>2023-02-14</birth_date>
-    <last_visit_date>2025-04-12</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Проблемы с пищеварением, назначена диета</diagnosis>
-  </pet>
-  <pet>
-    <name>Боня-2-15</name>
-    <birth_date>2017-03-15</birth_date>
-    <last_visit_date>2025-07-17</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Отит, проведена обработка</diagnosis>
-  </pet>
-  <pet>
-    <name>Снежок-2-16</name>
-    <birth_date>2018-04-16</birth_date>
-    <last_visit_date>2025-10-22</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Контроль после операции, положительная динамика</diagnosis>
-  </pet>
-  <pet>
-    <name>Граф-2-17</name>
-    <birth_date>2019-05-17</birth_date>
-    <last_visit_date>2025-01-27</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Дерматит, назначена мазь</diagnosis>
-  </pet>
-  <pet>
-    <name>Чапа-2-18</name>
-    <birth_date>2020-06-18</birth_date>
-    <last_visit_date>2026-04-05</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Зубной налет, рекомендована чистка</diagnosis>
-  </pet>
-  <pet>
-    <name>Том-2-19</name>
-    <birth_date>2021-07-19</birth_date>
-    <last_visit_date>2025-07-10</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Повторный прием, улучшение состояния</diagnosis>
-  </pet>
-  <pet>
-    <name>Луна-2-20</name>
-    <birth_date>2022-08-20</birth_date>
-    <last_visit_date>2025-10-15</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Травма лапы, наложена повязка</diagnosis>
-  </pet>
-  <pet>
-    <name>Барсик-2-21</name>
-    <birth_date>2023-09-21</birth_date>
-    <last_visit_date>2025-01-20</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Плановый осмотр, здоров</diagnosis>
-  </pet>
-  <pet>
-    <name>Мурка-2-22</name>
-    <birth_date>2017-10-22</birth_date>
-    <last_visit_date>2025-04-25</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Вакцинация, состояние хорошее</diagnosis>
-  </pet>
-  <pet>
-    <name>Рекс-2-23</name>
-    <birth_date>2018-11-23</birth_date>
-    <last_visit_date>2025-07-03</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Аллергическая реакция, назначено лечение</diagnosis>
-  </pet>
-  <pet>
-    <name>Лайма-2-24</name>
-    <birth_date>2019-12-24</birth_date>
-    <last_visit_date>2025-10-08</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Проблемы с пищеварением, назначена диета</diagnosis>
-  </pet>
-  <pet>
-    <name>Боня-2-25</name>
-    <birth_date>2020-01-25</birth_date>
-    <last_visit_date>2025-01-13</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Отит, проведена обработка</diagnosis>
-  </pet>
-  <pet>
-    <name>Снежок-2-26</name>
-    <birth_date>2021-02-26</birth_date>
-    <last_visit_date>2025-04-18</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Контроль после операции, положительная динамика</diagnosis>
-  </pet>
-  <pet>
-    <name>Граф-2-27</name>
-    <birth_date>2022-03-27</birth_date>
-    <last_visit_date>2025-07-23</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Дерматит, назначена мазь</diagnosis>
-  </pet>
-  <pet>
-    <name>Чапа-2-28</name>
-    <birth_date>2023-04-01</birth_date>
-    <last_visit_date>2025-10-01</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Зубной налет, рекомендована чистка</diagnosis>
-  </pet>
-  <pet>
-    <name>Том-2-29</name>
-    <birth_date>2017-05-02</birth_date>
-    <last_visit_date>2025-01-06</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Повторный прием, улучшение состояния</diagnosis>
-  </pet>
-  <pet>
-    <name>Луна-2-30</name>
-    <birth_date>2018-06-03</birth_date>
-    <last_visit_date>2025-04-11</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Травма лапы, наложена повязка</diagnosis>
-  </pet>
-  <pet>
-    <name>Барсик-2-31</name>
-    <birth_date>2019-07-04</birth_date>
-    <last_visit_date>2025-07-16</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Плановый осмотр, здоров</diagnosis>
-  </pet>
-  <pet>
-    <name>Мурка-2-32</name>
-    <birth_date>2020-08-05</birth_date>
-    <last_visit_date>2025-10-21</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Вакцинация, состояние хорошее</diagnosis>
-  </pet>
-  <pet>
-    <name>Рекс-2-33</name>
-    <birth_date>2021-09-06</birth_date>
-    <last_visit_date>2025-01-26</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Аллергическая реакция, назначено лечение</diagnosis>
-  </pet>
-  <pet>
-    <name>Лайма-2-34</name>
-    <birth_date>2022-10-07</birth_date>
-    <last_visit_date>2026-04-04</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Проблемы с пищеварением, назначена диета</diagnosis>
-  </pet>
-  <pet>
-    <name>Боня-2-35</name>
-    <birth_date>2023-11-08</birth_date>
-    <last_visit_date>2025-07-09</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Отит, проведена обработка</diagnosis>
-  </pet>
-  <pet>
-    <name>Снежок-2-36</name>
-    <birth_date>2017-12-09</birth_date>
-    <last_visit_date>2025-10-14</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Контроль после операции, положительная динамика</diagnosis>
-  </pet>
-  <pet>
-    <name>Граф-2-37</name>
-    <birth_date>2018-01-10</birth_date>
-    <last_visit_date>2025-01-19</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Дерматит, назначена мазь</diagnosis>
-  </pet>
-  <pet>
-    <name>Чапа-2-38</name>
-    <birth_date>2019-02-11</birth_date>
-    <last_visit_date>2025-04-24</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Зубной налет, рекомендована чистка</diagnosis>
-  </pet>
-  <pet>
-    <name>Том-2-39</name>
-    <birth_date>2020-03-12</birth_date>
-    <last_visit_date>2025-07-02</last_visit_date>
-    <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
-    </veterinarian>
-    <diagnosis>Повторный прием, улучшение состояния</diagnosis>
-  </pet>
-  <pet>
-    <name>Луна-2-40</name>
-    <birth_date>2021-04-13</birth_date>
-    <last_visit_date>2025-10-07</last_visit_date>
-    <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
-    </veterinarian>
-    <diagnosis>Травма лапы, наложена повязка</diagnosis>
-  </pet>
-  <pet>
-    <name>Барсик-2-41</name>
-    <birth_date>2022-05-14</birth_date>
-    <last_visit_date>2025-01-12</last_visit_date>
-    <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
-    </veterinarian>
-    <diagnosis>Плановый осмотр, здоров</diagnosis>
-  </pet>
-  <pet>
-    <name>Мурка-2-42</name>
-    <birth_date>2023-06-15</birth_date>
-    <last_visit_date>2025-04-17</last_visit_date>
-    <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
-    </veterinarian>
-    <diagnosis>Вакцинация, состояние хорошее</diagnosis>
-  </pet>
-  <pet>
-    <name>Рекс-2-43</name>
-    <birth_date>2017-07-16</birth_date>
+    <name>Веста-2-3</name>
+    <birth_date>2019-10-16</birth_date>
     <last_visit_date>2025-07-22</last_visit_date>
     <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
     </veterinarian>
-    <diagnosis>Аллергическая реакция, назначено лечение</diagnosis>
+    <diagnosis>Повышенная чувствительность кожи, рекомендован уход</diagnosis>
   </pet>
   <pet>
-    <name>Лайма-2-44</name>
-    <birth_date>2018-08-17</birth_date>
-    <last_visit_date>2025-10-27</last_visit_date>
+    <name>Грета-2-4</name>
+    <birth_date>2020-01-21</birth_date>
+    <last_visit_date>2024-09-02</last_visit_date>
     <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
     </veterinarian>
-    <diagnosis>Проблемы с пищеварением, назначена диета</diagnosis>
+    <diagnosis>Плановая стоматологическая обработка, без осложнений</diagnosis>
   </pet>
   <pet>
-    <name>Боня-2-45</name>
-    <birth_date>2019-09-18</birth_date>
-    <last_visit_date>2025-01-05</last_visit_date>
+    <name>Джой-2-5</name>
+    <birth_date>2021-04-26</birth_date>
+    <last_visit_date>2025-11-09</last_visit_date>
     <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
     </veterinarian>
-    <diagnosis>Отит, проведена обработка</diagnosis>
+    <diagnosis>Небольшое воспаление глаза, назначены капли</diagnosis>
   </pet>
   <pet>
-    <name>Снежок-2-46</name>
-    <birth_date>2020-10-19</birth_date>
-    <last_visit_date>2025-04-10</last_visit_date>
+    <name>Ева-2-6</name>
+    <birth_date>2022-07-04</birth_date>
+    <last_visit_date>2024-01-16</last_visit_date>
     <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
     </veterinarian>
-    <diagnosis>Контроль после операции, положительная динамика</diagnosis>
+    <diagnosis>Контроль питания, рекомендована коррекция рациона</diagnosis>
   </pet>
   <pet>
-    <name>Граф-2-47</name>
-    <birth_date>2021-11-20</birth_date>
-    <last_visit_date>2025-07-15</last_visit_date>
+    <name>Жак-2-7</name>
+    <birth_date>2023-10-09</birth_date>
+    <last_visit_date>2025-03-23</last_visit_date>
     <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
     </veterinarian>
-    <diagnosis>Дерматит, назначена мазь</diagnosis>
+    <diagnosis>Послеоперационный осмотр, заживление без особенностей</diagnosis>
   </pet>
   <pet>
-    <name>Чапа-2-48</name>
-    <birth_date>2022-12-21</birth_date>
-    <last_visit_date>2025-10-20</last_visit_date>
+    <name>Злата-2-8</name>
+    <birth_date>2016-01-14</birth_date>
+    <last_visit_date>2024-05-03</last_visit_date>
     <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
     </veterinarian>
-    <diagnosis>Зубной налет, рекомендована чистка</diagnosis>
+    <diagnosis>Проверка работы сердца, показатели в норме</diagnosis>
   </pet>
   <pet>
-    <name>Том-2-49</name>
-    <birth_date>2023-01-22</birth_date>
-    <last_visit_date>2025-01-25</last_visit_date>
+    <name>Ирис-2-9</name>
+    <birth_date>2017-04-19</birth_date>
+    <last_visit_date>2025-07-10</last_visit_date>
     <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
     </veterinarian>
-    <diagnosis>Повторный прием, улучшение состояния</diagnosis>
+    <diagnosis>Осмотр после травмы хвоста, положительная динамика</diagnosis>
   </pet>
   <pet>
-    <name>Луна-2-50</name>
-    <birth_date>2017-02-23</birth_date>
-    <last_visit_date>2026-04-03</last_visit_date>
+    <name>Кай-2-10</name>
+    <birth_date>2018-07-24</birth_date>
+    <last_visit_date>2024-09-17</last_visit_date>
     <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
     </veterinarian>
-    <diagnosis>Травма лапы, наложена повязка</diagnosis>
+    <diagnosis>Подозрение на пищевую аллергию, назначена диета</diagnosis>
   </pet>
   <pet>
-    <name>Барсик-2-51</name>
-    <birth_date>2018-03-24</birth_date>
-    <last_visit_date>2025-07-08</last_visit_date>
+    <name>Лора-2-11</name>
+    <birth_date>2019-10-02</birth_date>
+    <last_visit_date>2025-11-24</last_visit_date>
     <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
     </veterinarian>
-    <diagnosis>Плановый осмотр, здоров</diagnosis>
+    <diagnosis>Профилактический осмотр, отклонений не выявлено</diagnosis>
   </pet>
   <pet>
-    <name>Мурка-2-52</name>
-    <birth_date>2019-04-25</birth_date>
-    <last_visit_date>2025-10-13</last_visit_date>
+    <name>Мартин-2-12</name>
+    <birth_date>2020-01-07</birth_date>
+    <last_visit_date>2024-01-04</last_visit_date>
     <veterinarian>
-      <last_name>Кузнецова</last_name>
-      <first_name>Мария</first_name>
-      <middle_name>Андреевна</middle_name>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
     </veterinarian>
-    <diagnosis>Вакцинация, состояние хорошее</diagnosis>
+    <diagnosis>Ревакцинация, состояние стабильное</diagnosis>
   </pet>
   <pet>
-    <name>Рекс-2-53</name>
-    <birth_date>2020-05-26</birth_date>
-    <last_visit_date>2025-01-18</last_visit_date>
+    <name>Ника-2-13</name>
+    <birth_date>2021-04-12</birth_date>
+    <last_visit_date>2025-03-11</last_visit_date>
     <veterinarian>
-      <last_name>Иванов</last_name>
-      <first_name>Петр</first_name>
-      <middle_name>Сергеевич</middle_name>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
     </veterinarian>
-    <diagnosis>Аллергическая реакция, назначено лечение</diagnosis>
+    <diagnosis>Легкое растяжение лапы, назначен покой</diagnosis>
   </pet>
   <pet>
-    <name>Лайма-2-54</name>
-    <birth_date>2021-06-27</birth_date>
-    <last_visit_date>2025-04-23</last_visit_date>
+    <name>Оскар-2-14</name>
+    <birth_date>2022-07-17</birth_date>
+    <last_visit_date>2024-05-18</last_visit_date>
     <veterinarian>
-      <last_name>Соколова</last_name>
-      <first_name>Анна</first_name>
-      <middle_name>Игоревна</middle_name>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
     </veterinarian>
-    <diagnosis>Проблемы с пищеварением, назначена диета</diagnosis>
+    <diagnosis>Повышенная чувствительность кожи, рекомендован уход</diagnosis>
   </pet>
   <pet>
-    <name>Боня-2-55</name>
-    <birth_date>2022-07-01</birth_date>
+    <name>Плюша-2-15</name>
+    <birth_date>2023-10-22</birth_date>
+    <last_visit_date>2025-07-25</last_visit_date>
+    <veterinarian>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
+    </veterinarian>
+    <diagnosis>Плановая стоматологическая обработка, без осложнений</diagnosis>
+  </pet>
+  <pet>
+    <name>Ричи-2-16</name>
+    <birth_date>2016-01-27</birth_date>
+    <last_visit_date>2024-09-05</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Небольшое воспаление глаза, назначены капли</diagnosis>
+  </pet>
+  <pet>
+    <name>Сима-2-17</name>
+    <birth_date>2017-04-05</birth_date>
+    <last_visit_date>2025-11-12</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Контроль питания, рекомендована коррекция рациона</diagnosis>
+  </pet>
+  <pet>
+    <name>Тайсон-2-18</name>
+    <birth_date>2018-07-10</birth_date>
+    <last_visit_date>2024-01-19</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Послеоперационный осмотр, заживление без особенностей</diagnosis>
+  </pet>
+  <pet>
+    <name>Умка-2-19</name>
+    <birth_date>2019-10-15</birth_date>
+    <last_visit_date>2025-03-26</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Проверка работы сердца, показатели в норме</diagnosis>
+  </pet>
+  <pet>
+    <name>Флора-2-20</name>
+    <birth_date>2020-01-20</birth_date>
+    <last_visit_date>2024-05-06</last_visit_date>
+    <veterinarian>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
+    </veterinarian>
+    <diagnosis>Осмотр после травмы хвоста, положительная динамика</diagnosis>
+  </pet>
+  <pet>
+    <name>Хан-2-21</name>
+    <birth_date>2021-04-25</birth_date>
+    <last_visit_date>2025-07-13</last_visit_date>
+    <veterinarian>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
+    </veterinarian>
+    <diagnosis>Подозрение на пищевую аллергию, назначена диета</diagnosis>
+  </pet>
+  <pet>
+    <name>Цезарь-2-22</name>
+    <birth_date>2022-07-03</birth_date>
+    <last_visit_date>2024-09-20</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Профилактический осмотр, отклонений не выявлено</diagnosis>
+  </pet>
+  <pet>
+    <name>Челси-2-23</name>
+    <birth_date>2023-10-08</birth_date>
+    <last_visit_date>2025-11-27</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Ревакцинация, состояние стабильное</diagnosis>
+  </pet>
+  <pet>
+    <name>Шери-2-24</name>
+    <birth_date>2016-01-13</birth_date>
+    <last_visit_date>2024-01-07</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Легкое растяжение лапы, назначен покой</diagnosis>
+  </pet>
+  <pet>
+    <name>Эмма-2-25</name>
+    <birth_date>2017-04-18</birth_date>
+    <last_visit_date>2025-03-14</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Повышенная чувствительность кожи, рекомендован уход</diagnosis>
+  </pet>
+  <pet>
+    <name>Юта-2-26</name>
+    <birth_date>2018-07-23</birth_date>
+    <last_visit_date>2024-05-21</last_visit_date>
+    <veterinarian>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
+    </veterinarian>
+    <diagnosis>Плановая стоматологическая обработка, без осложнений</diagnosis>
+  </pet>
+  <pet>
+    <name>Яша-2-27</name>
+    <birth_date>2019-10-01</birth_date>
     <last_visit_date>2025-07-01</last_visit_date>
     <veterinarian>
-      <last_name>Петров</last_name>
-      <first_name>Олег</first_name>
-      <middle_name>Викторович</middle_name>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
     </veterinarian>
-    <diagnosis>Отит, проведена обработка</diagnosis>
+    <diagnosis>Небольшое воспаление глаза, назначены капли</diagnosis>
+  </pet>
+  <pet>
+    <name>Арчи-2-28</name>
+    <birth_date>2020-01-06</birth_date>
+    <last_visit_date>2024-09-08</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Контроль питания, рекомендована коррекция рациона</diagnosis>
+  </pet>
+  <pet>
+    <name>Белла-2-29</name>
+    <birth_date>2021-04-11</birth_date>
+    <last_visit_date>2025-11-15</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Послеоперационный осмотр, заживление без особенностей</diagnosis>
+  </pet>
+  <pet>
+    <name>Вольт-2-30</name>
+    <birth_date>2022-07-16</birth_date>
+    <last_visit_date>2024-01-22</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Проверка работы сердца, показатели в норме</diagnosis>
+  </pet>
+  <pet>
+    <name>Габи-2-31</name>
+    <birth_date>2023-10-21</birth_date>
+    <last_visit_date>2025-03-02</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Осмотр после травмы хвоста, положительная динамика</diagnosis>
+  </pet>
+  <pet>
+    <name>Дымка-2-32</name>
+    <birth_date>2016-01-26</birth_date>
+    <last_visit_date>2024-05-09</last_visit_date>
+    <veterinarian>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
+    </veterinarian>
+    <diagnosis>Подозрение на пищевую аллергию, назначена диета</diagnosis>
+  </pet>
+  <pet>
+    <name>Енисей-2-33</name>
+    <birth_date>2017-04-04</birth_date>
+    <last_visit_date>2025-07-16</last_visit_date>
+    <veterinarian>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
+    </veterinarian>
+    <diagnosis>Профилактический осмотр, отклонений не выявлено</diagnosis>
+  </pet>
+  <pet>
+    <name>Жуля-2-34</name>
+    <birth_date>2018-07-09</birth_date>
+    <last_visit_date>2024-09-23</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Ревакцинация, состояние стабильное</diagnosis>
+  </pet>
+  <pet>
+    <name>Зевс-2-35</name>
+    <birth_date>2019-10-14</birth_date>
+    <last_visit_date>2025-11-03</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Легкое растяжение лапы, назначен покой</diagnosis>
+  </pet>
+  <pet>
+    <name>Искра-2-36</name>
+    <birth_date>2020-01-19</birth_date>
+    <last_visit_date>2024-01-10</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Повышенная чувствительность кожи, рекомендован уход</diagnosis>
+  </pet>
+  <pet>
+    <name>Кнопа-2-37</name>
+    <birth_date>2021-04-24</birth_date>
+    <last_visit_date>2025-03-17</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Плановая стоматологическая обработка, без осложнений</diagnosis>
+  </pet>
+  <pet>
+    <name>Лютик-2-38</name>
+    <birth_date>2022-07-02</birth_date>
+    <last_visit_date>2024-05-24</last_visit_date>
+    <veterinarian>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
+    </veterinarian>
+    <diagnosis>Небольшое воспаление глаза, назначены капли</diagnosis>
+  </pet>
+  <pet>
+    <name>Мира-2-39</name>
+    <birth_date>2023-10-07</birth_date>
+    <last_visit_date>2025-07-04</last_visit_date>
+    <veterinarian>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
+    </veterinarian>
+    <diagnosis>Контроль питания, рекомендована коррекция рациона</diagnosis>
+  </pet>
+  <pet>
+    <name>Норд-2-40</name>
+    <birth_date>2016-01-12</birth_date>
+    <last_visit_date>2024-09-11</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Послеоперационный осмотр, заживление без особенностей</diagnosis>
+  </pet>
+  <pet>
+    <name>Орфей-2-41</name>
+    <birth_date>2017-04-17</birth_date>
+    <last_visit_date>2025-11-18</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Проверка работы сердца, показатели в норме</diagnosis>
+  </pet>
+  <pet>
+    <name>Персик-2-42</name>
+    <birth_date>2018-07-22</birth_date>
+    <last_visit_date>2024-01-25</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Осмотр после травмы хвоста, положительная динамика</diagnosis>
+  </pet>
+  <pet>
+    <name>Рада-2-43</name>
+    <birth_date>2019-10-27</birth_date>
+    <last_visit_date>2025-03-05</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Подозрение на пищевую аллергию, назначена диета</diagnosis>
+  </pet>
+  <pet>
+    <name>Скай-2-44</name>
+    <birth_date>2020-01-05</birth_date>
+    <last_visit_date>2024-05-12</last_visit_date>
+    <veterinarian>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
+    </veterinarian>
+    <diagnosis>Профилактический осмотр, отклонений не выявлено</diagnosis>
+  </pet>
+  <pet>
+    <name>Тесса-2-45</name>
+    <birth_date>2021-04-10</birth_date>
+    <last_visit_date>2025-07-19</last_visit_date>
+    <veterinarian>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
+    </veterinarian>
+    <diagnosis>Ревакцинация, состояние стабильное</diagnosis>
+  </pet>
+  <pet>
+    <name>Уголек-2-46</name>
+    <birth_date>2022-07-15</birth_date>
+    <last_visit_date>2024-09-26</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Легкое растяжение лапы, назначен покой</diagnosis>
+  </pet>
+  <pet>
+    <name>Феникс-2-47</name>
+    <birth_date>2023-10-20</birth_date>
+    <last_visit_date>2025-11-06</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Повышенная чувствительность кожи, рекомендован уход</diagnosis>
+  </pet>
+  <pet>
+    <name>Хлоя-2-48</name>
+    <birth_date>2016-01-25</birth_date>
+    <last_visit_date>2024-01-13</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Плановая стоматологическая обработка, без осложнений</diagnosis>
+  </pet>
+  <pet>
+    <name>Цунами-2-49</name>
+    <birth_date>2017-04-03</birth_date>
+    <last_visit_date>2025-03-20</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Небольшое воспаление глаза, назначены капли</diagnosis>
+  </pet>
+  <pet>
+    <name>Честер-2-50</name>
+    <birth_date>2018-07-08</birth_date>
+    <last_visit_date>2024-05-27</last_visit_date>
+    <veterinarian>
+      <last_name>Васильева</last_name>
+      <first_name>Наталья</first_name>
+      <middle_name>Олеговна</middle_name>
+    </veterinarian>
+    <diagnosis>Контроль питания, рекомендована коррекция рациона</diagnosis>
+  </pet>
+  <pet>
+    <name>Шторм-2-51</name>
+    <birth_date>2019-10-13</birth_date>
+    <last_visit_date>2025-07-07</last_visit_date>
+    <veterinarian>
+      <last_name>Мельников</last_name>
+      <first_name>Артем</first_name>
+      <middle_name>Ильич</middle_name>
+    </veterinarian>
+    <diagnosis>Послеоперационный осмотр, заживление без особенностей</diagnosis>
+  </pet>
+  <pet>
+    <name>Эльза-2-52</name>
+    <birth_date>2020-01-18</birth_date>
+    <last_visit_date>2024-09-14</last_visit_date>
+    <veterinarian>
+      <last_name>Федорова</last_name>
+      <first_name>Ксения</first_name>
+      <middle_name>Романовна</middle_name>
+    </veterinarian>
+    <diagnosis>Проверка работы сердца, показатели в норме</diagnosis>
+  </pet>
+  <pet>
+    <name>Юппи-2-53</name>
+    <birth_date>2021-04-23</birth_date>
+    <last_visit_date>2025-11-21</last_visit_date>
+    <veterinarian>
+      <last_name>Крылов</last_name>
+      <first_name>Максим</first_name>
+      <middle_name>Евгеньевич</middle_name>
+    </veterinarian>
+    <diagnosis>Осмотр после травмы хвоста, положительная динамика</diagnosis>
+  </pet>
+  <pet>
+    <name>Ягодка-2-54</name>
+    <birth_date>2022-07-01</birth_date>
+    <last_visit_date>2024-01-01</last_visit_date>
+    <veterinarian>
+      <last_name>Смирнова</last_name>
+      <first_name>Елена</first_name>
+      <middle_name>Александровна</middle_name>
+    </veterinarian>
+    <diagnosis>Подозрение на пищевую аллергию, назначена диета</diagnosis>
+  </pet>
+  <pet>
+    <name>Атос-2-55</name>
+    <birth_date>2023-10-06</birth_date>
+    <last_visit_date>2025-03-08</last_visit_date>
+    <veterinarian>
+      <last_name>Орлов</last_name>
+      <first_name>Дмитрий</first_name>
+      <middle_name>Павлович</middle_name>
+    </veterinarian>
+    <diagnosis>Профилактический осмотр, отклонений не выявлено</diagnosis>
   </pet>
 </pets>

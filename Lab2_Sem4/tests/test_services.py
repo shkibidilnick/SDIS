@@ -51,19 +51,19 @@ class ServiceTests(unittest.TestCase):
         )
         self.assertEqual(2, deleted)
 
-    def test_import_export_service_replaces_records(self) -> None:
+    def test_import_export_service_appends_only_unique_records(self) -> None:
         record_service = PetRecordService(self.repository)
         record_service.add_record(self.sample_record)
-        record_service.add_record(self.second_record)
 
         xml_path = Path(self._tmp_dir.name) / "pets.xml"
         exchange = ImportExportService(record_service)
         exchange.export_to_xml(xml_path)
 
-        self.repository.replace_all([])
+        record_service.add_record(self.second_record)
+
         loaded = exchange.import_from_xml(xml_path)
 
-        self.assertEqual(2, len(loaded))
+        self.assertEqual(0, len(loaded))
         self.assertEqual(2, len(record_service.get_all_records()))
 
     def test_search_service_rejects_invalid_phrase(self) -> None:

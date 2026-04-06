@@ -25,3 +25,6 @@ class PetRecordService:
         for record in records:
             PetRecordValidator.validate(record)
         self._repository.replace_all(records)
+
+    def clear_all(self) -> None:
+        self._repository.clear_all()

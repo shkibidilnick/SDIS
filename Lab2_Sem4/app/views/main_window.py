@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+from PySide6.QtGui import QAction
 from PySide6.QtWidgets import (
+    QFileDialog,
+    QHeaderView,
     QMainWindow,
     QMessageBox,
-    QFileDialog,
     QSplitter,
     QStatusBar,
     QTableWidget,
@@ -11,11 +13,9 @@ from PySide6.QtWidgets import (
     QToolBar,
     QTreeWidget,
     QTreeWidgetItem,
-    QWidget,
     QVBoxLayout,
+    QWidget,
 )
-
-from PySide6.QtGui import QAction
 
 from app.domain.pagination import Page
 from app.views.pagination_widget import PaginationWidget
@@ -31,7 +31,14 @@ class MainWindow(QMainWindow):
         self.table.setHorizontalHeaderLabels(
             ["Имя питомца", "Дата рождения", "Дата приема", "ФИО ветеринара", "Диагноз"]
         )
-        self.table.horizontalHeader().setStretchLastSection(True)
+
+        header = self.table.horizontalHeader()
+        header.setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(1, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(2, QHeaderView.ResizeToContents)
+        header.setSectionResizeMode(3, QHeaderView.Interactive)
+        header.setSectionResizeMode(4, QHeaderView.Stretch)
+        self.table.setColumnWidth(3, 220)
 
         self.tree = QTreeWidget()
         self.tree.setHeaderLabels(["Поле", "Значение"])
@@ -42,6 +49,7 @@ class MainWindow(QMainWindow):
         splitter.setSizes([700, 500])
 
         self.pagination = PaginationWidget()
+
         central = QWidget()
         central_layout = QVBoxLayout(central)
         central_layout.addWidget(splitter)
@@ -60,6 +68,7 @@ class MainWindow(QMainWindow):
         self.search_action = QAction("Поиск", self)
         self.delete_action = QAction("Удалить", self)
         self.refresh_action = QAction("Обновить", self)
+        self.clear_all_action = QAction("Очистить все записи", self)
         self.export_xml_action = QAction("Экспорт XML", self)
         self.import_xml_action = QAction("Импорт XML", self)
         self.exit_action = QAction("Выход", self)
@@ -77,6 +86,8 @@ class MainWindow(QMainWindow):
         records_menu.addAction(self.search_action)
         records_menu.addAction(self.delete_action)
         records_menu.addAction(self.refresh_action)
+        records_menu.addSeparator()
+        records_menu.addAction(self.clear_all_action)
 
         help_menu = self.menuBar().addMenu("Справка")
         help_menu.addAction(self.about_action)
@@ -89,6 +100,7 @@ class MainWindow(QMainWindow):
             self.search_action,
             self.delete_action,
             self.refresh_action,
+            self.clear_all_action,
             self.import_xml_action,
             self.export_xml_action,
         ):
@@ -97,6 +109,7 @@ class MainWindow(QMainWindow):
     def render_page(self, page: Page) -> None:
         self.table.setRowCount(len(page.items))
         self.tree.clear()
+
         for row_index, record in enumerate(page.items):
             values = [
                 record.pet_name,
@@ -126,6 +139,16 @@ class MainWindow(QMainWindow):
     def ask_open_xml_path(self) -> str:
         path, _ = QFileDialog.getOpenFileName(self, "Загрузить XML", filter="XML Files (*.xml)")
         return path
+
+    def ask_clear_all_confirmation(self) -> bool:
+        result = QMessageBox.question(
+            self,
+            "Подтверждение очистки",
+            "Удалить все записи из базы данных?",
+            QMessageBox.Yes | QMessageBox.No,
+            QMessageBox.No,
+        )
+        return result == QMessageBox.Yes
 
     def show_info(self, title: str, message: str) -> None:
         QMessageBox.information(self, title, message)
