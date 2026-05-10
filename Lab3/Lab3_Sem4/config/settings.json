@@ -1,0 +1,46 @@
+{
+    "screen": {
+        "width": 800,
+        "height": 600,
+        "title": "Super Mario Bros - Lab3",
+        "fps": 60
+    },
+    "physics": {
+        "gravity": 0.6,
+        "max_fall_speed": 12,
+        "jump_strength": -13,
+        "player_speed": 4,
+        "player_run_speed": 6
+    },
+    "tile": {
+        "size": 32
+    },
+    "player": {
+        "start_lives": 3,
+        "start_x": 64,
+        "start_y": 400,
+        "width": 28,
+        "height": 32,
+        "invincibility_time": 120
+    },
+    "scoring": {
+        "enemy_kill": 100,
+        "coin": 50,
+        "powerup_pickup": 200,
+        "level_complete": 1000,
+        "time_bonus_per_second": 10
+    },
+    "audio": {
+        "music_volume": 0.4,
+        "sfx_volume": 0.6
+    },
+    "level": {
+        "time_limit": 300
+    },
+    "files": {
+        "level_map": "config/level_map.json",
+        "enemies": "config/enemies.json",
+        "powerups": "config/powerups.json",
+        "highscores": "config/highscores.json"
+    }
+}

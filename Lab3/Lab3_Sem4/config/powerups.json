@@ -1,0 +1,44 @@
+{
+    "powerups": [
+        {
+            "type": "mushroom",
+            "name": "Гриб роста",
+            "width": 28,
+            "height": 28,
+            "color": [255, 0, 0],
+            "secondary_color": [255, 230, 200],
+            "speed": 1.5,
+            "score_value": 200,
+            "effect": "grow",
+            "duration": 1200,
+            "description": "Делает Марио большим на 20 секунд"
+        },
+        {
+            "type": "star",
+            "name": "Звезда",
+            "width": 28,
+            "height": 28,
+            "color": [255, 215, 0],
+            "secondary_color": [255, 255, 100],
+            "speed": 2.0,
+            "score_value": 500,
+            "effect": "invincible",
+            "duration": 600,
+            "description": "Неуязвимость на 10 секунд"
+        },
+        {
+            "type": "fireflower",
+            "name": "Огненный цветок",
+            "width": 28,
+            "height": 28,
+            "color": [255, 100, 0],
+            "secondary_color": [255, 200, 0],
+            "speed": 0,
+            "score_value": 300,
+            "effect": "speed_boost",
+            "duration": 720,
+            "description": "Ускорение на 12 секунд"
+        }
+    ],
+    "spawn_blocks": []
+}

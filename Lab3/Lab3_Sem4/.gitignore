@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing & coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Сгенерированные ассеты (создаются при первом запуске)
+assets/sounds/*.wav
+
+# Лог-файлы
+*.log
