@@ -1,0 +1,9 @@
+{
+  "scores": [
+    {"name": "MARIO", "score": 10000},
+    {"name": "LUIGI", "score": 7500},
+    {"name": "PEACH", "score": 5000},
+    {"name": "TOAD",  "score": 2500},
+    {"name": "AAA",   "score": 1000}
+  ]
+}

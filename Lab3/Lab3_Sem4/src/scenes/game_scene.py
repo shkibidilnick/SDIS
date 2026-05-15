@@ -264,21 +264,8 @@ class GameScene(Scene):
         self.player.apply_powerup(powerup.effect, powerup.duration)
         self.app.audio.play_sfx("powerup")
 
-    def _handle_enemy_collision(self, enemy) -> None:
-        # === 1. Звезда (неуязвимость): любой контакт ===
-        # Если игрок маленький — он не убивает, а проходит сквозь и отталкивается.
-        # Если игрок большой — убивает врага касанием.
-        if self.player.star_timer > 0:
-            if self.player.state == Player.STATE_BIG:
-                self.score += enemy.kill_by_star()
-                self.app.audio.play_sfx("stomp")
-            else:
-                # Маленький Марио со звездой: враг живёт, Марио сдвигается
-                self._push_player_away_from(enemy)
-            return
-
-        # === 2. Прыжок сверху (стандартный стомп) ===
-        # Только если игрок реально летит вниз и его низ выше центра врага.
+    def _handle_enemy_collision(self, enemy):
+        # === 1. Прыжок сверху — проверяем ПЕРВЫМ ===
         is_stomp = (
                 enemy.can_be_stomped
                 and self.player.vy > 0
@@ -290,19 +277,25 @@ class GameScene(Scene):
             self.app.audio.play_sfx("stomp")
             return
 
-        # === 3. Боковой/нижний контакт ===
+        # === 2. Звезда — только боковой/нижний контакт ===
+        if self.player.star_timer > 0:
+            if self.player.state == Player.STATE_BIG:
+                self.score += enemy.kill_by_star()
+                self.app.audio.play_sfx("stomp")
+            else:
+                self._push_player_away_from(enemy)
+            return
+
+        # === 3. Боковой/нижний контакт без звезды ===
         if self.player.state == Player.STATE_BIG:
-            # Большой Марио: Гумба гибнет от прямого столкновения, Купа — нет
             if enemy.type_name == "goomba":
                 self.score += enemy.kill_by_star()
                 self.app.audio.play_sfx("stomp")
                 return
-            # С Купой и Пираньей — урон (уменьшение до маленького)
             died = self.player.take_damage()
             if died:
                 self.app.audio.play_sfx("death")
         else:
-            # Маленький Марио без неуязвимости — смерть/урон
             died = self.player.take_damage()
             if died:
                 self.app.audio.play_sfx("death")

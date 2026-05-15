@@ -1,0 +1,67 @@
+{
+  "enemies": {
+    "goomba": {
+      "speed": 1.0,
+      "health": 1,
+      "damage": 1,
+      "stomp_kill": true,
+      "walk_animation_frames": 2,
+      "walk_animation_speed": 10,
+      "death_animation_frames": 1,
+      "death_duration": 30,
+      "width": 28,
+      "height": 28,
+      "color": [139, 90, 43]
+    },
+    "koopa": {
+      "speed": 1.2,
+      "health": 1,
+      "damage": 1,
+      "stomp_kill": false,
+      "stomp_shell": true,
+      "shell_speed": 6,
+      "walk_animation_frames": 2,
+      "walk_animation_speed": 12,
+      "death_animation_frames": 1,
+      "death_duration": 40,
+      "width": 28,
+      "height": 32,
+      "shell_height": 22,
+      "color": [0, 128, 0],
+      "shell_color": [0, 100, 0]
+    }
+  },
+  "bonuses": {
+    "mushroom": {
+      "type": "power_up",
+      "effect": "grow",
+      "duration": -1,
+      "speed": 1.5,
+      "color": [220, 30, 30],
+      "description": "Makes Mario bigger"
+    },
+    "fire_flower": {
+      "type": "power_up",
+      "effect": "fire",
+      "duration": -1,
+      "speed": 0,
+      "color": [255, 100, 0],
+      "description": "Gives Mario fire ability"
+    },
+    "star": {
+      "type": "power_up",
+      "effect": "invincible",
+      "duration": 600,
+      "speed": 2.0,
+      "color": [255, 220, 0],
+      "description": "Makes Mario invincible"
+    },
+    "coin": {
+      "type": "collectible",
+      "effect": "score",
+      "value": 200,
+      "color": [255, 220, 0],
+      "description": "Collect for score and extra life"
+    }
+  }
+}

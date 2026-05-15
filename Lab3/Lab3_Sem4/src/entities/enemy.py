@@ -93,7 +93,7 @@ class Enemy(PhysicsEntity):
 
         self.apply_gravity(self.gravity, self.max_fall_speed)
 
-        # Поведение перед движением
+        # Поведение перед движением ("walk" внесено временно, чтобы Гумба не падал с пропасти)
         if self.behavior in ("walk", "walk_smart"):
             self._check_ledge(level)
 

@@ -1,0 +1,35 @@
+{
+  "window": {
+    "title": "Super Mario Bros",
+    "width": 800,
+    "height": 600,
+    "fps": 60
+  },
+  "tile_size": 32,
+  "gravity": 0.5,
+  "mario": {
+    "speed": 3,
+    "run_speed": 5,
+    "jump_force": -12,
+    "lives": 3,
+    "invincibility_duration": 120
+  },
+  "camera": {
+    "scroll_threshold_right": 400,
+    "scroll_threshold_left": 200
+  },
+  "score": {
+    "coin": 200,
+    "goomba_stomp": 100,
+    "koopa_stomp": 200,
+    "mushroom": 1000,
+    "fireflower": 1000,
+    "flagpole": 5000,
+    "brick_break": 50
+  },
+  "sounds": {
+    "enabled": true,
+    "music_volume": 0.5,
+    "sfx_volume": 0.7
+  }
+}
